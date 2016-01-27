@@ -20,6 +20,7 @@ Inputs:
   - act_lens: 1-d int array of input length of each example
   - labels: list of 1-d int array for each example in minibatch
   - label_lens: 1-d int array of label length of each example
+
 Outputs:
   - cost: 1-d float array for cost of each minibatch example
   - grads: 3-d float array for pre-activation gradients
